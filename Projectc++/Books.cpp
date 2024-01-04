@@ -271,7 +271,7 @@ void SJ_append()
 		cin >> Data;
 		file << Data << endl; //将data中的数据写入到文件中
 		cout << "- - - - - - - - - -增加成功- - - - - - - - - -" << endl;
-		cout << "- - - - - - - - - -是否需要继续加入?- - - - - - - - - -" << endl;
+		cout << "- - - - - - - - - -是否需要继续加入?(exit退出)- - - - - - - - - -" << endl;
 		cin >> SJ_flag;
 		if (SJ_flag == "是")
 		{

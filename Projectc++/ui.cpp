@@ -47,7 +47,7 @@ void ui()
 	{
 		string object;
 		int survice1, survice2;
-		cout << "- - - - - - - - - -请输入管理对象- - - - - - - - - -" << endl;
+		cout << "- - - - - - - - - -请输入管理对象(书籍/书架)- - - - - - - - - -" << endl;
 		cin >> object;
 		if (object == "书籍")
 		{
