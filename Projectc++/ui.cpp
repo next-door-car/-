@@ -118,8 +118,6 @@ void ui()
 			cout << "输入错误，请重新输入" << endl;
 		}
 		
-		
-
 		}
 	else
 	{
