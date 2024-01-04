@@ -309,7 +309,7 @@ void WJ_append()
 	string jieyue_flag;
 	while (!count)
 	{
-		cout << "- - - - - - - - - -输入借阅的书籍名称- - - - - - - - - -" << endl;
+		cout << "- - - - - - - - - -输入借阅的书籍名称（exit退出）- - - - - - - -" << endl;
 		ofstream  file;
 		file.open("111.txt", ios::out | ios::app);//追加
 		string Data;
